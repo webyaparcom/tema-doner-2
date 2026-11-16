@@ -1,0 +1,29 @@
+{
+  "name": "Fener Döner",
+  "short_name": "Fener Döner",
+  "description": "Fener Döner: İncilipınar'da 04:00'e kadar açık yaprak döner büfesi; dürüm, yarım ekmek, porsiyon ve iskender, WhatsApp'tan sipariş. Demo site; içerik kurgusaldır.",
+  "start_url": "/tr/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#FFB020",
+  "lang": "tr",
+  "icons": [
+    {
+      "src": "/img/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/icon.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": {
+    "tr": "İletişim",
+    "en": "Contact",
+    "ar": "اتصل بنا"
+  },
+  "status": "play",
+  "category": "",
+  "id": "iletisim",
+  "url": "",
+  "path": "iletisim",
+  "index": 3,
+  "icon": "call",
+  "desing": {
+    "header": [],
+    "body": [
+      "ltedch",
+      "k8mp01"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Adres, gece saatleri ve harita.",
+    "en": "Address, night hours and map.",
+    "ar": "العنوان وساعات الليل والخريطة."
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "desc": {},
+  "title": {
+    "tr": "İletişim",
+    "en": "Contact",
+    "ar": "اتصل بنا"
+  },
+  "keyword": {
+    "tr": "iletişim",
+    "en": "contact",
+    "ar": "اتصال"
+  },
+  "text": {},
+  "update": "2026-11-16T18:18:55.959Z",
+  "date": "2026-10-30"
+}

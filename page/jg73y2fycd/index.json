@@ -1,0 +1,40 @@
+{
+  "id": "jg73y2fycd",
+  "name": {
+    "tr": "Menü",
+    "en": "Menu",
+    "ar": "القائمة"
+  },
+  "description": {
+    "tr": "Porsiyon tahtası ve örnek fiyatlar.",
+    "en": "Portion board and example prices.",
+    "ar": "لوح الحصص والأسعار النموذجية."
+  },
+  "keyword": {
+    "tr": "döner, dürüm, iskender, fiyat",
+    "en": "doner, wrap, iskender, price",
+    "ar": "دونر، لفافة، إسكندر، سعر"
+  },
+  "path": "hizmetler",
+  "icon": "restaurant_menu",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "w182sf",
+      "umdbp9"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Menü",
+    "en": "Menu",
+    "ar": "القائمة"
+  },
+  "date": "2026-11-16T18:01:08.366Z",
+  "update": "2026-11-16T18:18:55.945Z"
+}
