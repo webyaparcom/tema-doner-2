@@ -1,0 +1,40 @@
+{
+  "id": "lphppori98",
+  "name": {
+    "tr": "Sipariş",
+    "en": "Order",
+    "ar": "الطلب"
+  },
+  "description": {
+    "tr": "WhatsApp ile sipariş (demo).",
+    "en": "Order via WhatsApp (demo).",
+    "ar": "الطلب عبر واتساب (تجريبي)."
+  },
+  "keyword": {
+    "tr": "sipariş, paket servis",
+    "en": "order, delivery",
+    "ar": "طلب، توصيل"
+  },
+  "path": "teklif-al",
+  "icon": "shopping_bag",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "umdbp9",
+      "ltedch"
+    ],
+    "footer": []
+  },
+  "index": 2,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Sipariş",
+    "en": "Order",
+    "ar": "الطلب"
+  },
+  "date": "2026-11-16T18:01:08.377Z",
+  "update": "2026-11-16T18:18:55.955Z"
+}

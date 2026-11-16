@@ -1,0 +1,113 @@
+{
+  "data": [
+    {
+      "id": "jg73y2fycd",
+      "name": {
+        "tr": "Menü",
+        "en": "Menu",
+        "ar": "القائمة"
+      },
+      "description": {
+        "tr": "Porsiyon tahtası ve örnek fiyatlar.",
+        "en": "Portion board and example prices.",
+        "ar": "لوح الحصص والأسعار النموذجية."
+      },
+      "path": "hizmetler",
+      "icon": "restaurant_menu",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "w182sf",
+          "umdbp9"
+        ],
+        "footer": []
+      },
+      "index": 0
+    },
+    {
+      "name": {
+        "tr": "Yorumlar",
+        "en": "Reviews",
+        "ar": "التقييمات"
+      },
+      "status": "play",
+      "id": "hakkimizda",
+      "path": "hakkimizda",
+      "category": "",
+      "url": "",
+      "index": 1,
+      "icon": "reviews",
+      "desing": {
+        "header": [],
+        "body": [
+          "dwqsel",
+          "9fnb3d"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Gece müşterilerinin yorumları ve yanıtlarımız.",
+        "en": "Night guests' reviews and our replies.",
+        "ar": "تقييمات زبائن الليل وردودنا."
+      }
+    },
+    {
+      "id": "lphppori98",
+      "name": {
+        "tr": "Sipariş",
+        "en": "Order",
+        "ar": "الطلب"
+      },
+      "description": {
+        "tr": "WhatsApp ile sipariş (demo).",
+        "en": "Order via WhatsApp (demo).",
+        "ar": "الطلب عبر واتساب (تجريبي)."
+      },
+      "path": "teklif-al",
+      "icon": "shopping_bag",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "umdbp9",
+          "ltedch"
+        ],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "name": {
+        "tr": "İletişim",
+        "en": "Contact",
+        "ar": "اتصل بنا"
+      },
+      "status": "play",
+      "id": "iletisim",
+      "path": "iletisim",
+      "category": "",
+      "url": "",
+      "index": 3,
+      "icon": "call",
+      "desing": {
+        "header": [],
+        "body": [
+          "ltedch",
+          "k8mp01"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Adres, gece saatleri ve harita.",
+        "en": "Address, night hours and map.",
+        "ar": "العنوان وساعات الليل والخريطة."
+      }
+    }
+  ],
+  "desc": []
+}

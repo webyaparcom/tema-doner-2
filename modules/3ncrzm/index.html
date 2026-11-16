@@ -1,0 +1,98 @@
+<footer class="modulex-alt-neon{{fbsinif}}" {{fbetiket}}>
+  <div class="modulex-alt-neon-ic">
+    {{fbbas}}
+    {{fbgovde}}
+  </div>
+</footer>
+
+<style>
+  /* alt-neon — Gece mekânı imzası: tipografi ışık kaynağıdır (çok katmanlı text-shadow + iç/dış box-shadow ışıması), titreme bir kez oynar ve reduced-motion'da hiç oynamaz; tabela süs olduğu için ekran okuyucudan gizli, ad logoda okunur — bar, konser, oyun salonu, dans kulübü için. */
+  .modulex-alt-neon { box-sizing: border-box; width: 100%; padding: --bosluk-- 20px; background: --bg--; color: --text--; font-size: 1rem; line-height: 1.6; font-family: var(--mx-font-sans, inherit); overflow-wrap: break-word; }
+  .modulex-alt-neon *, .modulex-alt-neon *::before, .modulex-alt-neon *::after { box-sizing: border-box; }
+  /* ham/css.css «* { font-size: 14px }» kalıtımı keser — modül içinde boyut üstten gelsin (ikon yazı tipi hariç) */
+  .modulex-alt-neon :where(*:not(.material-symbols-outlined)) { font-size: inherit; }
+  /* aynı «*» kuralı font-weight 400 · line-height 1.2 · font-family de basar — modül içinde kalıtım */
+  .modulex-alt-neon :where(*:not(.material-symbols-outlined)) { font-weight: inherit; line-height: inherit; font-family: inherit; }
+  .modulex-alt-neon :where(h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd) { margin: 0; }
+  .modulex-alt-neon :where(ul, ol) { padding: 0; list-style: none; }
+  .modulex-alt-neon img { display: block; max-width: 100%; }
+  /* <img width height> öznitelik yüksekliği CSS aspect-ratio'yu ezer — sıfır özgüllükle auto (modül sınıfının height'ı yine kazanır) */
+  :where(.modulex-alt-neon) img { height: auto; }
+  .modulex-alt-neon [hidden] { display: none !important; }
+  .modulex-alt-neon :where(a, button, summary, [data-cevir]) { cursor: pointer; }
+  .modulex-alt-neon :where(a, button, summary, [tabindex]):focus-visible { outline: 3px solid --accent--; outline-offset: 3px; }
+  .modulex-alt-neon-ic { max-width: --max--; margin-inline: auto; }
+  .modulex-alt-neon-bas { display: grid; gap: 12px; margin-block-end: clamp(32px, 4vw, 52px); }
+  .modulex-alt-neon--bassiz .modulex-alt-neon-bas { display: none; }
+  .modulex-alt-neon-ust { color: --accentInk--; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-alt-neon-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.8rem, 3.4vw, 2.8rem); font-weight: 750; letter-spacing: -0.025em; line-height: 1.1; }
+  .modulex-alt-neon-metin { color: --muted--; font-size: 1.05rem; line-height: 1.7; }
+  .modulex-alt-neon-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-block-start: 8px; }
+  .modulex-alt-neon-dugme { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 22px; border: 2px solid --accent--; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease; }
+  .modulex-alt-neon-dugme:hover { transform: translateY(-2px); }
+  .modulex-alt-neon-dugme--ikincil { background: transparent; color: --text--; border-color: --cizgi--; }
+  .modulex-alt-neon-dugme--ikincil:hover { border-color: --accent--; }
+  .modulex-alt-neon-dugme .material-symbols-outlined { font-size: 20px; }
+
+  .modulex-alt-neon-bag { color: inherit; text-decoration: none; transition: color 0.2s ease; }
+  .modulex-alt-neon-bag:hover { color: --accentInk--; text-decoration: underline; text-underline-offset: 4px; }
+  .modulex-alt-neon-bag[aria-current="page"] { color: --accentInk--; font-weight: 700; }
+  .modulex-alt-neon-logo { display: inline-flex; align-items: center; gap: 10px; color: inherit; text-decoration: none; }
+  .modulex-alt-neon-logo img { width: auto; max-height: --logoH--; }
+  .modulex-alt-neon-ad { font-family: var(--mx-font-heading, inherit); font-size: 1.4rem; font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; }
+  .modulex-alt-neon-bbaslik { margin-block-end: 14px; color: --accentInk--; font-size: 0.8rem; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; }
+  .modulex-alt-neon-sayfalar, .modulex-alt-neon-baglantilar, .modulex-alt-neon-iletisim, .modulex-alt-neon-yasal { display: grid; gap: 9px; }
+  .modulex-alt-neon-il { display: flex; align-items: flex-start; gap: 10px; }
+  .modulex-alt-neon-il-ic { display: grid; gap: 2px; }
+  .modulex-alt-neon-il-etiket { color: --muted--; font-size: 0.8rem; }
+  .modulex-alt-neon-il-ikon { flex: none; color: --accentInk--; font-size: 20px; }
+  .modulex-alt-neon-saatler { display: grid; gap: 6px; }
+  .modulex-alt-neon-saat { display: flex; justify-content: space-between; gap: 16px; }
+  .modulex-alt-neon-saat dd { margin: 0; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .modulex-alt-neon-sosyal { display: flex; flex-wrap: wrap; gap: 10px; }
+  .modulex-alt-neon-sosyal-a { display: inline-grid; place-items: center; width: 42px; height: 42px; border: 1px solid --cizgi--; border-radius: 50%; color: inherit; font-size: 18px; transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease, transform 0.25s ease; }
+  .modulex-alt-neon-sosyal-a:hover { border-color: --accent--; background: --accent--; color: --accentText--; transform: translateY(-2px); }
+  .modulex-alt-neon-hakkinda { max-width: 46ch; color: --muted--; }
+  .modulex-alt-neon-telif { display: flex; flex-wrap: wrap; gap: 4px 14px; color: --muted--; font-size: 0.9rem; }
+  .modulex-alt-neon-dil:empty { display: none; }
+  .modulex-alt-neon-yukari { display: inline-grid; place-items: center; flex: none; width: 46px; height: 46px; border-radius: 50%; background: --accent--; color: --accentText--; text-decoration: none; transition: transform 0.25s ease; }
+  .modulex-alt-neon-yukari:hover { transform: translateY(-3px); }
+  .modulex-alt-neon-bulten { display: grid; gap: 8px; }
+  .modulex-alt-neon-nl-etiket { font-size: 0.9rem; font-weight: 700; }
+  .modulex-alt-neon-nl-satir { display: flex; flex-wrap: wrap; gap: 8px; }
+  .modulex-alt-neon-nl-girdi { flex: 1 1 200px; min-width: 0; min-height: 48px; padding: 10px 18px; border: 1px solid --cizgi--; border-radius: 999px; background: --bg--; color: --text--; font: inherit; }
+  .modulex-alt-neon-nl-dugme { display: inline-flex; align-items: center; gap: 6px; min-height: 48px; padding: 10px 22px; border: 0; border-radius: 999px; background: --accent--; color: --accentText--; font: inherit; font-weight: 700; transition: transform 0.2s ease; }
+  .modulex-alt-neon-nl-dugme:hover { transform: translateY(-2px); }
+  .modulex-alt-neon-nl-dugme .material-symbols-outlined { font-size: 18px; }
+  .modulex-alt-neon-nl-durum:empty { display: none; }
+  .modulex-alt-neon-nl-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.4rem, 2.6vw, 2rem); font-weight: 800; letter-spacing: -0.02em; line-height: 1.15; }
+  .modulex-alt-neon-nl-metin { color: --muted--; }
+
+  .modulex-alt-neon-ne-duvar { padding: clamp(28px, 4vw, 52px) clamp(16px, 3vw, 36px); border-radius: --yuvarlak--; background-color: color-mix(in srgb, --text-- 4%, --bg--); background-image: linear-gradient(to bottom, color-mix(in srgb, --text-- 7%, transparent) 1px, transparent 1px), linear-gradient(to right, color-mix(in srgb, --text-- 7%, transparent) 1px, transparent 1px); background-size: 56px 28px; }
+  .modulex-alt-neon-ne-tabela { margin-block-end: clamp(28px, 4vw, 48px); color: --accentInk--; font-family: var(--mx-font-heading, inherit); font-size: clamp(2.2rem, 7.6vw, 5.6rem); font-weight: 800; letter-spacing: 0.02em; line-height: 1.05; text-align: center; overflow-wrap: anywhere; text-shadow: 0 0 4px color-mix(in srgb, --accent-- 85%, transparent), 0 0 16px color-mix(in srgb, --accent-- 65%, transparent), 0 0 42px color-mix(in srgb, --accent-- 50%, transparent); animation: modulex-alt-neon-ne-titre 2.8s linear 1 backwards; transition: text-shadow 0.4s ease; }
+  .modulex-alt-neon-ne-tabela span { display: inline-block; max-width: 100%; padding: 0.08em 0.32em; border: 3px solid currentColor; border-radius: 0.4em; box-shadow: 0 0 12px color-mix(in srgb, --accent-- 60%, transparent), inset 0 0 12px color-mix(in srgb, --accent-- 45%, transparent); }
+  .modulex-alt-neon-ne-duvar:hover .modulex-alt-neon-ne-tabela { text-shadow: 0 0 6px --accent--, 0 0 22px color-mix(in srgb, --accent-- 80%, transparent), 0 0 60px color-mix(in srgb, --accent-- 60%, transparent); }
+  @keyframes modulex-alt-neon-ne-titre { 0%, 19%, 23%, 52%, 56%, 100% { opacity: 1; } 20%, 22%, 54% { opacity: 0.35; } }
+  .modulex-alt-neon-ne-izgara { display: flex; flex-wrap: wrap; gap: 22px; }
+  .modulex-alt-neon-ne-kutu { display: grid; align-content: start; gap: 12px; flex: 1 1 210px; min-width: 0; padding: 22px; border: 2px solid color-mix(in srgb, --accent-- 75%, transparent); border-radius: 16px; background: color-mix(in srgb, --bg-- 70%, transparent); box-shadow: 0 0 16px -6px color-mix(in srgb, --accent-- 70%, transparent), inset 0 0 16px -8px color-mix(in srgb, --accent-- 60%, transparent); transition: box-shadow 0.35s ease, border-color 0.35s ease; }
+  .modulex-alt-neon-ne-kutu:hover { border-color: --accent--; box-shadow: 0 0 26px -4px color-mix(in srgb, --accent-- 85%, transparent), inset 0 0 22px -8px color-mix(in srgb, --accent-- 70%, transparent); }
+  .modulex-alt-neon-ne-kutu--marka { flex: 2 1 380px; }
+  .modulex-alt-neon-ne-baslik { color: --accentInk--; font-size: 0.82rem; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; text-shadow: 0 0 10px color-mix(in srgb, --accent-- 60%, transparent); }
+  .modulex-alt-neon-ne-dip { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; margin-block-start: 24px; }
+  .modulex-alt-neon-ne-dip .modulex-alt-neon-telif { margin-inline-end: auto; }
+  .modulex-alt-neon-ne-yasal { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 0.9rem; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-alt-neon :is(.modulex-alt-neon-ne-tabela, .modulex-alt-neon-ne-baslik) { letter-spacing: 0; }
+  @media (max-width: 768px) {
+    .modulex-alt-neon-ne-kutu--marka { flex-basis: 100%; }
+    .modulex-alt-neon-ne-tabela span { border-width: 2px; }
+  }
+
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-alt-neon :is(.modulex-alt-neon-baslik, .modulex-alt-neon-ust, h3, h4, strong) { letter-spacing: 0; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-alt-neon-baslik { line-height: 1.35; }
+  @media (max-width: 768px) {
+    .modulex-alt-neon { padding-inline: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-alt-neon *, .modulex-alt-neon *::before, .modulex-alt-neon *::after { animation: none !important; transition: none !important; }
+  }
+</style>

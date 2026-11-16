@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Fener Döner: İncilipınar'da 04:00'e kadar açık yaprak döner büfesi; dürüm, yarım ekmek, porsiyon ve iskender, WhatsApp'tan sipariş. Demo site; içerik kurgusaldır.",
+    "en": "Fener Doner: a sliced-doner counter in Incilipinar open until 04:00; wraps, half loaves, plates and iskender, ordered on WhatsApp. Demo site; content is fictional.",
+    "ar": "فنر دونر: كشك دونر شرائح في إنجيلي بينار مفتوح حتى الساعة 04:00؛ لفائف ونصف رغيف وأطباق وإسكندر مع الطلب عبر واتساب. موقع تجريبي؛ المحتوى افتراضي."
+  },
+  "keyword": {
+    "tr": "döner, gece büfesi, dürüm, iskender, paket servis, Gaziantep",
+    "en": "doner, late-night food, wrap, iskender, takeaway, Gaziantep",
+    "ar": "دونر، أكل ليلي، لفافة، إسكندر، طلبات خارجية، غازي عنتاب"
+  },
+  "category": "Kurumsal",
+  "name": "Fener Döner",
+  "domain": "doner-2.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "rubik",
+    "heading": "barlow-condensed",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#FFB020",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "2px",
+    "--mx-radius-md": "4px",
+    "--mx-radius-lg": "6px",
+    "--mx-radius-xl": "8px"
+  },
+  "icon": "icon.png"
+}
