@@ -3,17 +3,23 @@
   "name": {
     "tr": "Sipariş",
     "en": "Order",
-    "ar": "الطلب"
+    "ar": "الطلب",
+    "de": "Bestellung",
+    "ru": "Заказ"
   },
   "description": {
     "tr": "WhatsApp ile sipariş (demo).",
     "en": "Order via WhatsApp (demo).",
-    "ar": "الطلب عبر واتساب (تجريبي)."
+    "ar": "الطلب عبر واتساب (تجريبي).",
+    "de": "Bestellung über WhatsApp (Demo).",
+    "ru": "Заказ через WhatsApp (демо)."
   },
   "keyword": {
     "tr": "sipariş, paket servis",
     "en": "order, delivery",
-    "ar": "طلب، توصيل"
+    "ar": "طلب، توصيل",
+    "de": "Bestellung, Lieferservice",
+    "ru": "заказ, доставка"
   },
   "path": "teklif-al",
   "icon": "shopping_bag",
@@ -33,7 +39,9 @@
   "title": {
     "tr": "Sipariş",
     "en": "Order",
-    "ar": "الطلب"
+    "ar": "الطلب",
+    "de": "Bestellung",
+    "ru": "Заказ"
   },
   "date": "2026-11-16T18:01:08.377Z",
   "update": "2026-11-16T18:18:55.955Z"

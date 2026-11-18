@@ -3,17 +3,23 @@
   "name": {
     "tr": "Misyon",
     "en": "Mission",
-    "ar": "المهمة"
+    "ar": "المهمة",
+    "de": "Mission",
+    "ru": "Миссия"
   },
   "description": {
     "tr": "Misyonumuz",
     "en": "Our mission",
-    "ar": "مهمتنا"
+    "ar": "مهمتنا",
+    "de": "Unsere Mission",
+    "ru": "Наша миссия"
   },
   "keyword": {
     "tr": "Misyon",
     "en": "mission, our mission, corporate responsibility",
-    "ar": "الرسالة, رسالتنا, المسؤولية المؤسسية"
+    "ar": "الرسالة, رسالتنا, المسؤولية المؤسسية",
+    "de": "Mission",
+    "ru": "Миссия"
   },
   "path": "misyon",
   "icon": "flag",
@@ -29,12 +35,16 @@
   "text": {
     "tr": "<h2>Misyonumuz</h2>\n<p>Gece çalışanlara sıcak, hızlı ve ölçülü bir öğün sunmak.</p>",
     "en": "<h2>Our mission</h2>\n<p>To serve night workers a hot, quick and fair meal.</p>",
-    "ar": "<h2>مهمتنا</h2>\n<p>تقديم وجبة ساخنة وسريعة ومعتدلة لعمّال الليل.</p>"
+    "ar": "<h2>مهمتنا</h2>\n<p>تقديم وجبة ساخنة وسريعة ومعتدلة لعمّال الليل.</p>",
+    "de": "<h2>Unsere Mission</h2>\n<p>Nachtarbeitern ein warmes, schnelles und faires Essen zu servieren.</p>",
+    "ru": "<h2>Наша миссия</h2>\n<p>Предоставлять работникам ночной смены горячую, быструю и доступную еду.</p>"
   },
   "title": {
     "tr": "Misyon",
     "en": "Mission",
-    "ar": "المهمة"
+    "ar": "المهمة",
+    "de": "Mission",
+    "ru": "Миссия"
   },
   "date": "2026-11-16T18:01:08.202Z",
   "update": "2026-11-16T18:18:55.964Z",

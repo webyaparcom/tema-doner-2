@@ -4,12 +4,16 @@
   "description": {
     "tr": "Fener Döner: İncilipınar'da 04:00'e kadar açık yaprak döner büfesi; dürüm, yarım ekmek, porsiyon ve iskender, WhatsApp'tan sipariş. Demo site; içerik kurgusaldır.",
     "en": "Fener Doner: a sliced-doner counter in Incilipinar open until 04:00; wraps, half loaves, plates and iskender, ordered on WhatsApp. Demo site; content is fictional.",
-    "ar": "فنر دونر: كشك دونر شرائح في إنجيلي بينار مفتوح حتى الساعة 04:00؛ لفائف ونصف رغيف وأطباق وإسكندر مع الطلب عبر واتساب. موقع تجريبي؛ المحتوى افتراضي."
+    "ar": "فنر دونر: كشك دونر شرائح في إنجيلي بينار مفتوح حتى الساعة 04:00؛ لفائف ونصف رغيف وأطباق وإسكندر مع الطلب عبر واتساب. موقع تجريبي؛ المحتوى افتراضي.",
+    "de": "Fener Döner: Dönerimbiss in İncilipınar mit Dönerspieß, bis 04:00 Uhr geöffnet; Dürüm, halbes Brot, Portion und İskender, Bestellung über WhatsApp. Demo-Website; Inhalte sind fiktiv.",
+    "ru": "Fener Döner: донер-закусочная в İncilipınar с листовым донером, открыта до 04:00; дюрюм, пол-хлеба, порция и искендер, заказ через WhatsApp. Демо-сайт; содержимое вымышленное."
   },
   "keyword": {
     "tr": "döner, gece büfesi, dürüm, iskender, paket servis, Gaziantep",
     "en": "doner, late-night food, wrap, iskender, takeaway, Gaziantep",
-    "ar": "دونر، أكل ليلي، لفافة، إسكندر، طلبات خارجية، غازي عنتاب"
+    "ar": "دونر، أكل ليلي، لفافة، إسكندر، طلبات خارجية، غازي عنتاب",
+    "de": "Döner, Nachtimbiss, Dürüm, İskender, Lieferservice, Gaziantep",
+    "ru": "дёнер, ночной киоск, дюрюм, искендер, доставка, Газиантеп"
   },
   "category": "Kurumsal",
   "name": "Fener Döner",
@@ -18,15 +22,27 @@
     "tr": true,
     "en": true,
     "ar": true,
-    "de": false,
-    "ru": false,
+    "de": true,
+    "ru": true,
     "es": false,
     "fr": false,
     "it": false,
     "ja": false,
     "zh": false,
     "ko": false,
-    "pt": false
+    "pt": false,
+    "fa": false,
+    "he": false,
+    "ur": false,
+    "nl": false,
+    "pl": false,
+    "uk": false,
+    "az": false,
+    "ka": false,
+    "el": false,
+    "bg": false,
+    "ro": false,
+    "hi": false
   },
   "logo": "logo.png",
   "multi": false,

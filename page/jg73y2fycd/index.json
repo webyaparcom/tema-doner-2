@@ -3,17 +3,23 @@
   "name": {
     "tr": "Menü",
     "en": "Menu",
-    "ar": "القائمة"
+    "ar": "القائمة",
+    "de": "Menü",
+    "ru": "Меню"
   },
   "description": {
     "tr": "Porsiyon tahtası ve örnek fiyatlar.",
     "en": "Portion board and example prices.",
-    "ar": "لوح الحصص والأسعار النموذجية."
+    "ar": "لوح الحصص والأسعار النموذجية.",
+    "de": "Portionsbrett und Beispielpreise.",
+    "ru": "Доска для порций и примерные цены."
   },
   "keyword": {
     "tr": "döner, dürüm, iskender, fiyat",
     "en": "doner, wrap, iskender, price",
-    "ar": "دونر، لفافة، إسكندر، سعر"
+    "ar": "دونر، لفافة، إسكندر، سعر",
+    "de": "Döner, Dürüm, İskender, Preis",
+    "ru": "дёнер, дюрюм, искендер, цена"
   },
   "path": "hizmetler",
   "icon": "restaurant_menu",
@@ -33,7 +39,9 @@
   "title": {
     "tr": "Menü",
     "en": "Menu",
-    "ar": "القائمة"
+    "ar": "القائمة",
+    "de": "Menü",
+    "ru": "Меню"
   },
   "date": "2026-11-16T18:01:08.366Z",
   "update": "2026-11-16T18:18:55.945Z"
