@@ -2,7 +2,9 @@
   "name": {
     "tr": "Yorumlar",
     "en": "Reviews",
-    "ar": "التقييمات"
+    "ar": "التقييمات",
+    "de": "Bewertungen",
+    "ru": "Отзывы"
   },
   "status": "play",
   "category": "",
@@ -23,7 +25,9 @@
   "description": {
     "tr": "Gece müşterilerinin yorumları ve yanıtlarımız.",
     "en": "Night guests' reviews and our replies.",
-    "ar": "تقييمات زبائن الليل وردودنا."
+    "ar": "تقييمات زبائن الليل وردودنا.",
+    "de": "Bewertungen der Nachtkunden und unsere Antworten.",
+    "ru": "Отзывы ночных гостей и наши ответы."
   },
   "spot": {
     "tr": "",
@@ -34,12 +38,16 @@
   "title": {
     "tr": "Yorumlar",
     "en": "Reviews",
-    "ar": "التقييمات"
+    "ar": "التقييمات",
+    "de": "Bewertungen",
+    "ru": "Отзывы"
   },
   "keyword": {
     "tr": "yorum, değerlendirme",
     "en": "reviews, ratings",
-    "ar": "تقييمات"
+    "ar": "تقييمات",
+    "de": "Deutung, Einschätzung",
+    "ru": "толкование, оценка"
   },
   "text": {},
   "update": "2026-11-16T18:18:55.950Z",

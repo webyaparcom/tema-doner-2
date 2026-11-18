@@ -5,12 +5,16 @@
       "name": {
         "tr": "Menü",
         "en": "Menu",
-        "ar": "القائمة"
+        "ar": "القائمة",
+        "de": "Menü",
+        "ru": "Меню"
       },
       "description": {
         "tr": "Porsiyon tahtası ve örnek fiyatlar.",
         "en": "Portion board and example prices.",
-        "ar": "لوح الحصص والأسعار النموذجية."
+        "ar": "لوح الحصص والأسعار النموذجية.",
+        "de": "Portionsbrett und Beispielpreise.",
+        "ru": "Доска для порций и примерные цены."
       },
       "path": "hizmetler",
       "icon": "restaurant_menu",
@@ -30,7 +34,9 @@
       "name": {
         "tr": "Yorumlar",
         "en": "Reviews",
-        "ar": "التقييمات"
+        "ar": "التقييمات",
+        "de": "Bewertungen",
+        "ru": "Отзывы"
       },
       "status": "play",
       "id": "hakkimizda",
@@ -51,7 +57,9 @@
       "description": {
         "tr": "Gece müşterilerinin yorumları ve yanıtlarımız.",
         "en": "Night guests' reviews and our replies.",
-        "ar": "تقييمات زبائن الليل وردودنا."
+        "ar": "تقييمات زبائن الليل وردودنا.",
+        "de": "Bewertungen der Nachtkunden und unsere Antworten.",
+        "ru": "Отзывы ночных гостей и наши ответы."
       }
     },
     {
@@ -59,12 +67,16 @@
       "name": {
         "tr": "Sipariş",
         "en": "Order",
-        "ar": "الطلب"
+        "ar": "الطلب",
+        "de": "Bestellung",
+        "ru": "Заказ"
       },
       "description": {
         "tr": "WhatsApp ile sipariş (demo).",
         "en": "Order via WhatsApp (demo).",
-        "ar": "الطلب عبر واتساب (تجريبي)."
+        "ar": "الطلب عبر واتساب (تجريبي).",
+        "de": "Bestellung über WhatsApp (Demo).",
+        "ru": "Заказ через WhatsApp (демо)."
       },
       "path": "teklif-al",
       "icon": "shopping_bag",
@@ -84,7 +96,9 @@
       "name": {
         "tr": "İletişim",
         "en": "Contact",
-        "ar": "اتصل بنا"
+        "ar": "اتصل بنا",
+        "de": "Kontakt",
+        "ru": "Контакты"
       },
       "status": "play",
       "id": "iletisim",
@@ -105,7 +119,9 @@
       "description": {
         "tr": "Adres, gece saatleri ve harita.",
         "en": "Address, night hours and map.",
-        "ar": "العنوان وساعات الليل والخريطة."
+        "ar": "العنوان وساعات الليل والخريطة.",
+        "de": "Adresse, Nachtzeiten und Karte.",
+        "ru": "Адрес, ночные часы и карта."
       }
     }
   ],
